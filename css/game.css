@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  text-align: center;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+#cvsFireworks {
+  z-index: 2;
+}
+
+#cvsMsg {
+  z-index: 1;
+}
+
+#divButtons {
+  position: absolute;
+  bottom: 24px;
+  width: 100%;
+  z-index: 2;
+}
+
+.btn {
+  margin-top: 8px;
+}
+
+#loading {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(192, 192, 192, 1);
+  background-image: url("img/loading.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
